@@ -30,57 +30,6 @@ $result = true;
     <meta charset="UTF-8">
     <title>お問い合わせフォーム - 送信完了画面</title>
     <link rel="stylesheet" href="style.css">
-        <style>
-
-            body{
-                margin:0;
-                background:#f5f5f5;
-            }
-
-            .wrapper{
-                width:900px;
-                margin:30px auto;
-            }
-
-            header{
-                background:pink;
-                text-align:center;
-                padding:20px;
-            }
-
-            .container{
-                display:flex;
-            }
-
-            nav{
-                width:250px;
-                background:#7fffd4;
-                padding:20px;
-            }
-
-            main{
-                flex:1;
-                background:#f5e6c8;
-                padding:40px;
-            }
-
-            footer{
-                height:80px;
-                background:#ddd;
-            }
-
-            .message{
-                font-size:20px;
-            }
-
-            .success{
-                color:blue;
-            }
-
-            .error{
-                color:red;
-            }
-        </style>
 </head>
 <body>
 <div class="wrapper">
