@@ -7,7 +7,7 @@ if ($_SERVER["REQUEST_METHOD"] !== "POST") {
 
 // データ受け取り
 $name = $_POST["name"] ?? "";
-$company = $_POST["companyName"] ?? "";
+$company = $_POST["company"] ?? "";
 $email = $_POST["email"] ?? "";
 $age = $_POST["age"] ?? "";
 $message = $_POST["message"] ?? "";
@@ -15,7 +15,7 @@ $message = $_POST["message"] ?? "";
 // メール本文
 $body  = "お問い合わせがありました。\n\n";
 $body .= "名前 : " . $name . "\n";
-$body .= "会社名 : " . $companyName . "\n";
+$body .= "会社名 : " . $company . "\n";
 $body .= "メールアドレス : " . $email . "\n";
 $body .= "年齢 : " . $age . "\n";
 $body .= "お問い合わせ内容 : " . $message . "\n";
@@ -29,6 +29,7 @@ $result = true;
 <head>
     <meta charset="UTF-8">
     <title>お問い合わせフォーム - 送信完了画面</title>
+    <link rel="stylesheet" href="style.css">
         <style>
 
             body{
